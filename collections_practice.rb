@@ -12,7 +12,7 @@ def sort_array_desc(array)
 end 
 
 def sort_array_asc(array)
- array.sort do |a, b| 
+ array.sort do |a, b| a.length - b.length 
    a <=> b 
    end 
 end 
