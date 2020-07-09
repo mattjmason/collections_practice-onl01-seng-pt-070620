@@ -25,3 +25,8 @@ end
 def reverse_array(array)
  array [1,2] = array[2,1]
 end 
+
+def reverse_array(array)
+ array.reverse 
+   end 
+end 
