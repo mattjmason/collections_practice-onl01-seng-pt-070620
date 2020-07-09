@@ -32,6 +32,6 @@ end
 
 
 def kesha_maker(array)
- array.gsub  
-   end 
+ array.map { |name| name[2] = $} 
+ array 
 end 
